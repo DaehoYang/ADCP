@@ -1,0 +1,16 @@
+services:
+  class-sshd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: class-sshd
+    container_name: class-sshd
+    ports:
+      - "22222:22"
+    working_dir: /workspace
+    volumes:
+      - ../../:/workspace
+      - ~/.ssh/class_key.pub:/home/student/.ssh/authorized_keys:ro
+    restart: unless-stopped
+    tty: true
+    stdin_open: true

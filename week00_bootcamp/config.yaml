@@ -1,0 +1,9 @@
+length: 1.0
+c: 1.0
+nx: 201
+t_end: 0.2
+safety_factor: 0.8
+dt: null
+x0: 0.5
+sigma: 0.08
+out_json: logs/week00_summary.json
