@@ -1,0 +1,11 @@
+# Week 01 config — Physical Law to Computable Baseline
+nx: 80
+ny: 80
+length_x: 1.0
+length_y: 1.0
+c: 1.0
+t_end: 0.2
+safety_factor: 0.5
+sigma: 0.08
+energy_eps: 1.0e-12
+bc: dirichlet

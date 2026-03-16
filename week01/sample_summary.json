@@ -1,0 +1,10 @@
+{
+  "status": "baseline-ready",
+  "summary": {
+    "goal": "2D baseline run generated and logged",
+    "artifacts_ready": true,
+    "relative_energy_drift": 0.0087,
+    "failure_class": "baseline-ready"
+  },
+  "next_week_bridge": "Select analytic reference mode for compute_l2"
+}

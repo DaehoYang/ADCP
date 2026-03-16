@@ -1,0 +1,17 @@
+{
+  "label": "baseline-ready",
+  "nx": 80,
+  "ny": 80,
+  "dx": 0.012658227848101266,
+  "dy": 0.012658227848101266,
+  "dt": 0.004475942048745247,
+  "t_end": 0.2,
+  "bc": "dirichlet",
+  "c": 1.0,
+  "safety_factor": 0.5,
+  "energy_eps": 1e-12,
+  "relative_energy_drift": 0.0087,
+  "reference_interface_callable": true,
+  "compute_l2_interface_callable": true,
+  "compute_l2_stub_value": 0.1432
+}
