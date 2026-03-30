@@ -1,0 +1,12 @@
+﻿c:/Users/sheep/OneDrive/Documents/classes/agent/.venv/Scripts/python.exe : 
+Traceback (most recent call last):
+At line:1 char:23
++ ... ion week03; c:/Users/sheep/OneDrive/Documents/classes/agent/.venv/Scr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "starter_reference_check.py", line 50, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

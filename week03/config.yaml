@@ -1,0 +1,12 @@
+﻿# Week 02 config
+# Grid parameters
+nx: 100
+ny: 100
+length_x: 1.0
+length_y: 1.0
+# Physics
+c: 1.0
+# Measurement sync point (Module 4: hold t_star fixed across all resolutions)
+t_star: 0.5
+# Courant number (Module 4: fix nu so dt = nu*dx/c for resolution sweep)
+courant: 0.5
