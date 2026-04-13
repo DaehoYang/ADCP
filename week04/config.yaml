@@ -1,0 +1,27 @@
+# Week 04 baseline configuration
+# Used by: solver_2d.py and the broken-first examples.
+
+# --- Shared grid / solver ---
+nx: 41
+ny: 41
+length: 1.0
+c: 1.0
+# dt is derived from the 2D CFL-like scaling: dt = courant * dx / (c * sqrt(2))
+courant: 0.60
+
+# --- Boundary / diagnostics ---
+bc_steps: 200
+time_reversal_steps: 200
+symmetry_threshold: 1.0e-2
+flux_residual_threshold: 1.0e-3
+
+# --- Inverse / observation setup ---
+c_true: 1.5
+obs_t_end: 2.0
+obs_nx: 21
+obs_courant: 0.55
+opt_search_low: 0.5
+opt_search_high: 2.0
+n_calls: 30
+n_seeds: 10
+success_tau: 0.05
